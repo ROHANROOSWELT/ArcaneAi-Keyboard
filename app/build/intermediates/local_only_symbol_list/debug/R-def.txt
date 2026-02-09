@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnMic
+id btnSave
+id btnSettings
+id etNativeLang
+id etTargetLang
+id keyboardRows
+id rvSuggestions
+layout activity_settings
+layout layout_keyboard
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string pref_native_lang
+string pref_sending_lang
+string settings_title
+string subtype_en_us
+xml method

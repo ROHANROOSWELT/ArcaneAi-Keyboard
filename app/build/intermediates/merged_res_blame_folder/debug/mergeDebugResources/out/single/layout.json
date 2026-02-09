@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-mergeDebugResources-34:\\layout\\layout_keyboard.xml",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\layout\\layout_keyboard.xml"
+    },
+    {
+        "merged": "com.gemini.keyboard.app-mergeDebugResources-34:/layout/layout_keyboard.xml",
+        "source": "com.gemini.keyboard.app-main-37:/layout/layout_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-mergeDebugResources-34:\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\layout\\activity_settings.xml"
+    }
+]

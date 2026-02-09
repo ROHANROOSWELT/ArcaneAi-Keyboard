@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/key_background" />
+    <corners android:radius="6dp" />
+    <!-- Simple shadow simulation via margin in layout or elevation if possible, 
+         but here just a clean white shape. We can add a stroke for contrast if needed. -->
+</shape>

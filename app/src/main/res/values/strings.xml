@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BeanAI Keyboard</string>
+    <string name="subtype_en_us">English (US)</string>
+    <string name="settings_title">Gemini Keyboard Settings</string>
+    <string name="pref_sending_lang">Preferred Sending Language</string>
+    <string name="pref_native_lang">Native Language</string>
+
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>Tamil</item>
+        <item>Hindi</item>
+        <item>Malayalam</item>
+        <item>Telugu</item>
+        <item>Kannada</item>
+        <item>Bengali</item>
+        <item>Marathi</item>
+        <item>Gujarati</item>
+        <item>Punjabi</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Arabic</item>
+        <item>Russian</item>
+        <item>Portuguese</item>
+        <item>Italian</item>
+    </string-array>
+</resources>

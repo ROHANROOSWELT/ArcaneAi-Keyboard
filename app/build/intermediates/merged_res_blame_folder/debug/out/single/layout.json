@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.gemini.keyboard.app-mergeDebugResources-30:/layout/layout_keyboard.xml",
+        "source": "com.gemini.keyboard.app-main-33:/layout/layout_keyboard.xml"
+    },
+    {
+        "merged": "com.gemini.keyboard.app-mergeDebugResources-30:/layout/activity_settings.xml",
+        "source": "com.gemini.keyboard.app-main-33:/layout/activity_settings.xml"
+    }
+]

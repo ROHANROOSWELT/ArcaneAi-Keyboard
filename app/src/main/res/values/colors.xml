@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="keyboard_background">#FFEDF0F2</color>
+    <color name="key_background">#FFFFFFFF</color>
+    <color name="key_pressed">#FFD6D6D6</color>
+    <color name="key_text">#FF202124</color>
+    <color name="key_shadow">#FF8F8F8F</color>
+    <color name="accent_blue">#FF4285F4</color>
+    <color name="suggestion_bg">#FFF1F3F4</color>
+</resources>

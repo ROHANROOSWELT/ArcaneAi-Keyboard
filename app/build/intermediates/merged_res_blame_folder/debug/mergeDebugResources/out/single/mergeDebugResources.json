@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\layout_layout_keyboard.xml.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\layout\\layout_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\xml_method.xml.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\xml\\method.xml"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\drawable_bg_key_selector.xml.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\drawable\\bg_key_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\drawable_bg_key_pressed.xml.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\drawable\\bg_key_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\drawable_bg_key_normal.xml.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\drawable\\bg_key_normal.xml"
+    },
+    {
+        "merged": "com.gemini.keyboard.app-debug-35:/layout_layout_keyboard.xml.flat",
+        "source": "com.gemini.keyboard.app-main-37:/layout/layout_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-debug-35:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\proha\\.gradle\\daemon\\9.0-milestone-1\\com.gemini.keyboard.app-main-37:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    }
+]

@@ -1,0 +1,6 @@
+com.gemini.keyboard.test.app-core-1.5.0-0 C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\52ca7f469c051f8e89f01e2956ad987f\transformed\core-1.5.0\res
+com.gemini.keyboard.test.app-annotation-experimental-1.3.0-1 C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\6f98876ea3ac3a4f2a2212f6e999fe46\transformed\annotation-experimental-1.3.0\res
+com.gemini.keyboard.test.app-androidTest-2 D:\project\keyboard\app\build\generated\res\resValues\androidTest\debug
+com.gemini.keyboard.test.app-mergeDebugAndroidTestResources-3 D:\project\keyboard\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.gemini.keyboard.test.app-mergeDebugAndroidTestResources-4 D:\project\keyboard\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.gemini.keyboard.test.app-merged_res-5 D:\project\keyboard\app\build\intermediates\merged_res\debugAndroidTest

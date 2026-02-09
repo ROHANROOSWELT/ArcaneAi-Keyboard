@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>Tamil</item>
+        <item>Hindi</item>
+        <item>Malayalam</item>
+        <item>Telugu</item>
+        <item>Kannada</item>
+        <item>Bengali</item>
+        <item>Marathi</item>
+        <item>Gujarati</item>
+        <item>Punjabi</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Arabic</item>
+        <item>Russian</item>
+        <item>Portuguese</item>
+        <item>Italian</item>
+    </string-array>
+    <color name="accent_blue">#FF4285F4</color>
+    <color name="key_background">#FFFFFFFF</color>
+    <color name="key_pressed">#FFD6D6D6</color>
+    <color name="key_shadow">#FF8F8F8F</color>
+    <color name="key_text">#FF202124</color>
+    <color name="keyboard_background">#FFEDF0F2</color>
+    <color name="suggestion_bg">#FFF1F3F4</color>
+    <string name="app_name">BeanAI Keyboard</string>
+    <string name="pref_native_lang">Native Language</string>
+    <string name="pref_sending_lang">Preferred Sending Language</string>
+    <string name="settings_title">Gemini Keyboard Settings</string>
+    <string name="subtype_en_us">English (US)</string>
+</resources>

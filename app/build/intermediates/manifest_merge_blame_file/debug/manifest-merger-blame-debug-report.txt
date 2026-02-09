@@ -1,0 +1,152 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gemini.keyboard"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\project\keyboard\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\project\keyboard\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->D:\project\keyboard\app\src\main\AndroidManifest.xml:5:5-71
+12-->D:\project\keyboard\app\src\main\AndroidManifest.xml:5:22-68
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->D:\project\keyboard\app\src\main\AndroidManifest.xml:6:5-77
+13-->D:\project\keyboard\app\src\main\AndroidManifest.xml:6:22-74
+14
+15    <permission
+15-->[androidx.core:core:1.12.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\5f2aa0165b2ab0df5ca7c40d78259b54\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.gemini.keyboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.12.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\5f2aa0165b2ab0df5ca7c40d78259b54\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.12.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\5f2aa0165b2ab0df5ca7c40d78259b54\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.gemini.keyboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.12.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\5f2aa0165b2ab0df5ca7c40d78259b54\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.12.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\5f2aa0165b2ab0df5ca7c40d78259b54\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->D:\project\keyboard\app\src\main\AndroidManifest.xml:8:5-35:19
+22        android:allowBackup="true"
+22-->D:\project\keyboard\app\src\main\AndroidManifest.xml:9:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.12.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\5f2aa0165b2ab0df5ca7c40d78259b54\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/ic_launcher"
+26-->D:\project\keyboard\app\src\main\AndroidManifest.xml:10:9-43
+27        android:label="@string/app_name"
+27-->D:\project\keyboard\app\src\main\AndroidManifest.xml:11:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->D:\project\keyboard\app\src\main\AndroidManifest.xml:12:9-54
+29        android:supportsRtl="true"
+29-->D:\project\keyboard\app\src\main\AndroidManifest.xml:13:9-35
+30        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+30-->D:\project\keyboard\app\src\main\AndroidManifest.xml:14:9-65
+31        <service
+31-->D:\project\keyboard\app\src\main\AndroidManifest.xml:16:9-27:19
+32            android:name="com.gemini.keyboard.GeminiKeyboardService"
+32-->D:\project\keyboard\app\src\main\AndroidManifest.xml:17:13-50
+33            android:exported="true"
+33-->D:\project\keyboard\app\src\main\AndroidManifest.xml:20:13-36
+34            android:label="@string/app_name"
+34-->D:\project\keyboard\app\src\main\AndroidManifest.xml:18:13-45
+35            android:permission="android.permission.BIND_INPUT_METHOD" >
+35-->D:\project\keyboard\app\src\main\AndroidManifest.xml:19:13-70
+36            <intent-filter>
+36-->D:\project\keyboard\app\src\main\AndroidManifest.xml:21:13-23:29
+37                <action android:name="android.view.InputMethod" />
+37-->D:\project\keyboard\app\src\main\AndroidManifest.xml:22:17-67
+37-->D:\project\keyboard\app\src\main\AndroidManifest.xml:22:25-64
+38            </intent-filter>
+39
+40            <meta-data
+40-->D:\project\keyboard\app\src\main\AndroidManifest.xml:24:13-26:50
+41                android:name="android.view.im"
+41-->D:\project\keyboard\app\src\main\AndroidManifest.xml:25:17-47
+42                android:resource="@xml/method" />
+42-->D:\project\keyboard\app\src\main\AndroidManifest.xml:26:17-47
+43        </service>
+44
+45        <activity
+45-->D:\project\keyboard\app\src\main\AndroidManifest.xml:29:9-33:20
+46            android:name="com.gemini.keyboard.settings.SettingsActivity"
+46-->D:\project\keyboard\app\src\main\AndroidManifest.xml:30:13-54
+47            android:exported="true"
+47-->D:\project\keyboard\app\src\main\AndroidManifest.xml:32:13-36
+48            android:label="@string/settings_title" >
+48-->D:\project\keyboard\app\src\main\AndroidManifest.xml:31:13-51
+49        </activity>
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\ece5f7bca034abcf8ec469d6d9190e3a\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\ece5f7bca034abcf8ec469d6d9190e3a\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+53            android:authorities="com.gemini.keyboard.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\ece5f7bca034abcf8ec469d6d9190e3a\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\ece5f7bca034abcf8ec469d6d9190e3a\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\ece5f7bca034abcf8ec469d6d9190e3a\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\ece5f7bca034abcf8ec469d6d9190e3a\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\ece5f7bca034abcf8ec469d6d9190e3a\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\8a0d8d70c02713f0edd0747196d2f843\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\8a0d8d70c02713f0edd0747196d2f843\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\8a0d8d70c02713f0edd0747196d2f843\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+61            <meta-data
+61-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+62-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+63                android:value="androidx.startup" />
+63-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+64        </provider>
+65
+66        <receiver
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+67            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+68            android:directBootAware="false"
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+69            android:enabled="true"
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+70            android:exported="true"
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+71            android:permission="android.permission.DUMP" >
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+72            <intent-filter>
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+73                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+74            </intent-filter>
+75            <intent-filter>
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+76                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+77            </intent-filter>
+78            <intent-filter>
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+79                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+80            </intent-filter>
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+82                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\proha\.gradle\caches\9.0-milestone-1\transforms\a517b0cb44e5e188741e5da7e6ff9be9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+83            </intent-filter>
+84        </receiver>
+85    </application>
+86
+87</manifest>
