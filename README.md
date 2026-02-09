@@ -1,5 +1,7 @@
 # ArcaneAi-Keyboard
 
+> **Unlock the Power of AI in Every Keystroke.**
+
 **ArcaneAi-Keyboard** is an innovative Android keyboard integrated with Gemini AI, designed to enhance your typing experience with smart features and customization.
 
 ## Features
