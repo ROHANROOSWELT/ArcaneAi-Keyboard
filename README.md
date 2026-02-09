@@ -13,14 +13,14 @@
 
 ## Demo
 Check out the project demo on YouTube:
-[Watch on YouTube](https://youtu.be/E1_eS2EN_QA)
+[Watch on YouTube](https://youtu.be/wSOx_WoCYq8)
 
 ## Getting Started
 
 ### Prerequisites
 - Android Studio or command-line tools.
 - Java Development Kit (JDK).
-- **Gemini API Key**: Requires a valid Gemini API key configured in the settings or code.
+- **Gemini API Key**: Can given within the app or got through signing in with your google account in the settings menu.
 
 ### Building the APK
 To build the debug APK, run the following command in the root directory:
