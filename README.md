@@ -7,7 +7,7 @@
 ## Features
 - **Smart AI Integration**: Powered by Gemini AI for intelligent suggestions and assistance.
 - **Smart Reply**: Automatically generates 5 context-aware reply suggestions for copied text. Suggestions are shown in your native language and instantly translated to the target language when selected.
-- **Universal Translation**: Translate text between any two languages instantly.
+- **Universal Translation**: Translate text between any two languages instantly (even supports hybrid language cause we used gemini).
 - **Voice Input**: Seamless speech-to-text functionality.
 - **Clipboard Actions**: Detects copied text and offers immediate actions like translation or smart replies.
 - **Custom Input Service**: A robust custom input method service (IMS).
