@@ -34,4 +34,4 @@ To build the debug APK, run the following command in the root directory:
 The APK will be generated in `app/build/outputs/apk/debug/`.
 
 ## License
-[Add License Here]
+MIT
